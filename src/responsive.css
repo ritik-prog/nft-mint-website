@@ -1,0 +1,22 @@
+@media only screen and (max-width: 768px) {
+  .ConnectWallet {
+    width: 150px;
+    height: 30px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .InnerMintContainer_main {
+    width: auto;
+  }
+  .MintContainer h1 {
+    font-size: 1.5em;
+  }
+  .logo {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media only screen and (max-width: 325px) {
+}
