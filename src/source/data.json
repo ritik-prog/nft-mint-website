@@ -1,8 +1,8 @@
 {
-  "projectName": "NFT",
-  "projectDescription": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio aliquam omnis eius iusto quidem et suscipit. Pariatur, eveniet! Rem, in.",
+  "projectName": "",
+  "projectDescription": "",
   "headerLogo": "logo.png",
   "nftImage": "banner.png",
-  "contractAddress": "0xe8709726b415C24F60DBb2a9B4dAF08Ea4Dcd1FD",
-  "copyright": "Ritik"
+  "contractAddress": "",
+  "copyright": ""
 }
