@@ -11,6 +11,7 @@ import { toast } from "react-toastify";
 
 import "./App.css";
 import "./responsive.css";
+import { Config } from "./components/config/Config";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -32,17 +33,26 @@ function App() {
   const { mutateAsync: claimNft, isLoading: claimNftisLoading } =
     useClaimNFT(contract);
 
+  // function for checking data.json
+  function checkDataFile(): boolean {
+    if (
+      Data.nftImage !== "" &&
+      Data.nftImage !== "" &&
+      Data.projectDescription !== "" &&
+      Data.contractAddress !== "" &&
+      Data.headerLogo !== "" &&
+      Data.copyright !== ""
+    ) {
+      return true;
+    } else {
+      return false;
+    }
+  }
+
   // check data.json
   useEffect(() => {
     try {
-      if (
-        Data.nftImage !== "" &&
-        Data.nftImage !== "" &&
-        Data.projectDescription !== "" &&
-        Data.contractAddress !== "" &&
-        Data.headerLogo !== "" &&
-        Data.copyright !== ""
-      ) {
+      if (checkDataFile() === true) {
         setLoading(false);
       }
       setLoading(false);
@@ -65,7 +75,9 @@ function App() {
       setTotalSupply(Number(unclaimedNFTCount) + Number(claimedNFTCount));
       setLoading(false);
     };
-    fetchNftDropData();
+    if (checkDataFile()) {
+      fetchNftDropData();
+    }
   }, [RefreshData, contract]);
 
   // handleMint connected to button
@@ -113,7 +125,7 @@ function App() {
         <>
           <Loading />
         </>
-      ) : Data.contractAddress ? (
+      ) : checkDataFile() ? (
         <>
           <Header />
           {claimNftisLoading ? (
@@ -162,22 +174,7 @@ function App() {
           <Footer />
         </>
       ) : (
-        <div className="BoxContainer">
-          <div className="box">
-            <h1>EDIT DATA FILE PROPERLY</h1>
-            <p>Before using the application</p>
-            <pre className="code-highlight">
-              <code>source/data.json</code>
-            </pre>
-            <p>Enter following details in data file</p>
-            {filteredData.map(([key, value], index) => (
-              <>
-                <code key={index}>{key}</code>
-                <br />
-              </>
-            ))}
-          </div>
-        </div>
+        <Config filteredData={filteredData} />
       )}
     </div>
   );
