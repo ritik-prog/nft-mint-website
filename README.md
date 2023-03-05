@@ -143,7 +143,7 @@ That’s it! You’ve successfully cloned and launched a ReactJS website from Gi
 
 1\. Open “**./source/data.json**” in the project directory.
 
-![](https://cdn-images-1.medium.com/max/1600/1*FhhDITv7HFFLMb677XgURw.png align="left")
+![a](https://cdn-images-1.medium.com/max/1600/1*FhhDITv7HFFLMb677XgURw.png align="left")
 
 2\. Edit all required fields apart from **“headerLogo”** and **“nftImage”**
 
@@ -151,7 +151,7 @@ That’s it! You’ve successfully cloned and launched a ReactJS website from Gi
 
 3\. Update **“headerLogo”** and **“nftImage”**
 
-![](https://cdn-images-1.medium.com/max/1600/1*-rzQ44-V6BpdHucXPlSVIQ.png align="left")
+![b](https://cdn-images-1.medium.com/max/1600/1*-rzQ44-V6BpdHucXPlSVIQ.png align="left")
 
 Update **“headerLogo”** and **“nftImage”**
 
