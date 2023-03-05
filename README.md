@@ -143,7 +143,7 @@ That’s it! You’ve successfully cloned and launched a ReactJS website from Gi
 
 1\. Open “**./source/data.json**” in the project directory.
 
-![a](https://cdn-images-1.medium.com/max/1600/1*FhhDITv7HFFLMb677XgURw.png align="left")
+![a](https://cdn-images-1.medium.com/max/1600/1*FhhDITv7HFFLMb677XgURw.png)
 
 2\. Edit all required fields apart from **“headerLogo”** and **“nftImage”**
 
@@ -151,7 +151,7 @@ That’s it! You’ve successfully cloned and launched a ReactJS website from Gi
 
 3\. Update **“headerLogo”** and **“nftImage”**
 
-![b](https://cdn-images-1.medium.com/max/1600/1*-rzQ44-V6BpdHucXPlSVIQ.png align="left")
+![b](https://cdn-images-1.medium.com/max/1600/1*-rzQ44-V6BpdHucXPlSVIQ.png)
 
 Update **“headerLogo”** and **“nftImage”**
 
@@ -159,7 +159,7 @@ Note: Change these pictures in **“./src/assets/”** and keep the same name, a
 
 4\. Change the blockchain network to the desired network
 
-![Create and Host NFT Mint Page in Minutes: The Simple Solution You Need in ethereum](https://cdn-images-1.medium.com/max/1600/1*bmBh_y7qwn-CCt8Ep17TPQ.png align="left"){:target="_blank" rel="noopener"}
+![Create and Host NFT Mint Page in Minutes: The Simple Solution You Need in ethereum](https://cdn-images-1.medium.com/max/1600/1*bmBh_y7qwn-CCt8Ep17TPQ.png)
 
 CHANGE BLOCKCHAIN NETWORK
 
