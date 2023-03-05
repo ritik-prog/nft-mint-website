@@ -12,14 +12,14 @@ Whether you’re an artist hoping to sell your digital creations as NFTs or a de
 
 1. **Understanding of Blockchain Technology**: To work on a blockchain-based project, it’s important to have a good understanding of the underlying technology. You should know the basics of how blockchain works, what a wallet is, and how transactions are made.
     
-2. **Access to a Blockchain Wallet**: Since the project involves a blockchain wallet, you should have a working wallet that is compatible with the blockchain network being used. This can include wallets like [MetaMask](https://metamask.io/){:target="_blank" rel="noopener"}, [Coinbase Wallet](https://www.coinbase.com/wallet/downloads){:target="_blank" rel="noopener"}, or any other wallet that supports the blockchain being used.
+2. **Access to a Blockchain Wallet**: Since the project involves a blockchain wallet, you should have a working wallet that is compatible with the blockchain network being used. This can include wallets like [MetaMask](https://metamask.io/){:target="_blank"}, [Coinbase Wallet](https://www.coinbase.com/wallet/downloads){:target="_blank"}, or any other wallet that supports the blockchain being used.
     
 
 ### Key Requirements for Building and Hosting a ReactJS Project
 
-1. [Node.js and npm CLI](https://nodejs.org/en/){:target="_blank" rel="noopener"} are installed on your local machine to manage packages and dependencies for your project.
+1. [Node.js and npm CLI](https://nodejs.org/en/){:target="_blank"} are installed on your local machine to manage packages and dependencies for your project.
     
-2. [Vercel CLI](https://vercel.com/docs/cli){:target="_blank" rel="noopener"} is installed on your local machine to deploy the project to a hosting service (Installing npm is a prerequisite for installing Vercel).
+2. [Vercel CLI](https://vercel.com/docs/cli){:target="_blank"} is installed on your local machine to deploy the project to a hosting service (Installing npm is a prerequisite for installing Vercel).
  
 
 > In addition to the prerequisites mentioned above, working with blockchain and React projects also requires familiarity with **testnets**.
