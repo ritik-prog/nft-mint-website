@@ -20,7 +20,7 @@ Whether you’re an artist hoping to sell your digital creations as NFTs or a de
 1. [Node.js and npm CLI](https://nodejs.org/en/){:target="_blank" rel="noopener"} are installed on your local machine to manage packages and dependencies for your project.
     
 2. [Vercel CLI](https://vercel.com/docs/cli){:target="_blank" rel="noopener"} is installed on your local machine to deploy the project to a hosting service (Installing npm is a prerequisite for installing Vercel).
-    
+ 
 
 > In addition to the prerequisites mentioned above, working with blockchain and React projects also requires familiarity with **testnets**.
 
