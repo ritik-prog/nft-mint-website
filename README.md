@@ -226,7 +226,11 @@ vercel deploy
 
 8\. Follow the prompts to finalize your deployment settings. You can choose whether to deploy your project as a development or production build and choose other options like setting environment variables or deploying with a custom domain.
 
-9\. Once the deployment is complete, you can access your website using the provided URL like [https://nft-mint-page-nu.vercel.app/](https://nft-mint-page-nu.vercel.app/){:target="_blank" rel="noopener"}.
+9\. Once the deployment is complete, you can access your website using the provided URL like 
+
+```
+https://nft-mint-page-nu.vercel.app/
+```
 
 That’s it! With these steps, you should be able to easily log in to Vercel and deploy your React website using the Vercel CLI.
 
