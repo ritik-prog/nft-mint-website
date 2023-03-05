@@ -1,4 +1,5 @@
 ![nft](https://user-images.githubusercontent.com/35072415/222942011-88d25a4e-3d41-49bf-8946-767b7ab75fba.png)
+### [BLOG](https://blog.ritikmakhija.tech/nft-mint-page-in-minutes)
 
 ### Introduction
 
