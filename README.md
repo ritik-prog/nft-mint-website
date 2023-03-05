@@ -12,14 +12,14 @@ Whether you’re an artist hoping to sell your digital creations as NFTs or a de
 
 1. **Understanding of Blockchain Technology**: To work on a blockchain-based project, it’s important to have a good understanding of the underlying technology. You should know the basics of how blockchain works, what a wallet is, and how transactions are made.
     
-2. **Access to a Blockchain Wallet**: Since the project involves a blockchain wallet, you should have a working wallet that is compatible with the blockchain network being used. This can include wallets like [MetaMask](https://metamask.io/){:target="_blank"}, [Coinbase Wallet](https://www.coinbase.com/wallet/downloads){:target="_blank"}, or any other wallet that supports the blockchain being used.
+2. **Access to a Blockchain Wallet**: Since the project involves a blockchain wallet, you should have a working wallet that is compatible with the blockchain network being used. This can include wallets like [MetaMask](https://metamask.io/), [Coinbase Wallet](https://www.coinbase.com/wallet/downloads), or any other wallet that supports the blockchain being used.
     
 
 ### Key Requirements for Building and Hosting a ReactJS Project
 
-1. [Node.js and npm CLI](https://nodejs.org/en/){:target="_blank"} are installed on your local machine to manage packages and dependencies for your project.
+1. [Node.js and npm CLI](https://nodejs.org/en/) are installed on your local machine to manage packages and dependencies for your project.
     
-2. [Vercel CLI](https://vercel.com/docs/cli){:target="_blank"} is installed on your local machine to deploy the project to a hosting service (Installing npm is a prerequisite for installing Vercel).
+2. [Vercel CLI](https://vercel.com/docs/cli) is installed on your local machine to deploy the project to a hosting service (Installing npm is a prerequisite for installing Vercel).
  
 
 > In addition to the prerequisites mentioned above, working with blockchain and React projects also requires familiarity with **testnets**.
@@ -28,24 +28,24 @@ Whether you’re an artist hoping to sell your digital creations as NFTs or a de
 
 A Step-by-Step Guide to Launching Your Own Crypto Collectibles
 
-Deploying an NFT drop in [Thirdweb](https://thirdweb.com/){:target="_blank" rel="noopener"} is a straightforward process that requires only a few steps. Here’s a step-by-step guide to help you get started:
+Deploying an NFT drop in [Thirdweb](https://thirdweb.com/) is a straightforward process that requires only a few steps. Here’s a step-by-step guide to help you get started:
 
-1. First, make sure you have a Thirdweb account and have connected your wallet to the platform. If you haven’t already, you can create an account by visiting the [Thirdweb website](https://thirdweb.com/){:target="_blank" rel="noopener"} and following the sign-up process.
+1. First, make sure you have a Thirdweb account and have connected your wallet to the platform. If you haven’t already, you can create an account by visiting the [Thirdweb website](https://thirdweb.com/) and following the sign-up process.
     
-2. After you’ve created your account and connected your wallet, go to the [NFT drop creation page on ThirdWeb](https://thirdweb.com/explore){:target="_blank" rel="noopener"} and click on “NFT Drop” and then “Deploy Now.” This page should contain a form for you to fill out with the necessary information for your NFT drop.
+2. After you’ve created your account and connected your wallet, go to the [NFT drop creation page on ThirdWeb](https://thirdweb.com/explore) and click on “NFT Drop” and then “Deploy Now.” This page should contain a form for you to fill out with the necessary information for your NFT drop.
     
-3. Once you’ve filled out the form and uploaded your NFT image, review the information to make sure everything is correct. Then, select the appropriate network according to your needs. For testing, use the “[**Goerli Testnet**](https://goerlifaucet.com/){:target="_blank" rel="noopener"}”, Before deploying in the “**Goerli Testnet**” you need to get some faucets to make transactions ([**click here to get faucets**](https://goerlifaucet.com/){:target="_blank" rel="noopener"}). and then click the “Deploy Now” button to deploy your NFT drop on the blockchain.
+3. Once you’ve filled out the form and uploaded your NFT image, review the information to make sure everything is correct. Then, select the appropriate network according to your needs. For testing, use the “[**Goerli Testnet**](https://goerlifaucet.com/)”, Before deploying in the “**Goerli Testnet**” you need to get some faucets to make transactions ([**click here to get faucets**](https://goerlifaucet.com/)). and then click the “Deploy Now” button to deploy your NFT drop on the blockchain.
     
 4. Finally, you’ll need to confirm the transaction in your connected wallet. This will complete the deployment of your NFT drop on the blockchain.
     
-5. [Detailed steps for deploying NFT contracts by third-web](https://portal.thirdweb.com/templates/nft-drop/creating-the-nft-drop-contract#:~:text=Creating%20an%20NFT%20Drop%20Contract%E2%80%8B,is%20best%20suited%20for%20this.){:target="_blank" rel="noopener"}
+5. [Detailed steps for deploying NFT contracts by third-web](https://portal.thirdweb.com/templates/nft-drop/creating-the-nft-drop-contract#:~:text=Creating%20an%20NFT%20Drop%20Contract%E2%80%8B,is%20best%20suited%20for%20this.)
     
 6. Next, you’ll need to upload the files for your NFTs. This can include images, videos, or any other digital assets you want to include with your NFTs. Make sure your files meet the size and format requirements provided by Thirdweb. To begin, Thirdweb offers both single and bulk upload options.
     
 
 > **Single NFT upload** refers to the process of creating and uploading one NFT at a time. This can be a time-consuming process if you have many NFTs to upload, but it allows for a more personalized approach to each NFT, ensuring that each item is carefully curated and presented to potential buyers.
 
-> **Bulk upload** of NFTs is a convenient feature with which a seller can add multiple items to their collection at once. To do a bulk upload, sellers need to have a set of digital files ready, such as images or videos. They can then use a tool provided by the [HashLips](https://github.com/HashLips/hashlips_art_engine){:target="_blank" rel="noopener"} to generate NFTs, set metadata for each NFT, and specify details such as royalty splits. Some platforms also provide templates or pre-configured settings to speed up the process. Metadata includes information such as the name, description, and other details about the NFT. It’s important to ensure that each NFT is properly curated and presented to potential buyers.
+> **Bulk upload** of NFTs is a convenient feature with which a seller can add multiple items to their collection at once. To do a bulk upload, sellers need to have a set of digital files ready, such as images or videos. They can then use a tool provided by the [HashLips](https://github.com/HashLips/hashlips_art_engine) to generate NFTs, set metadata for each NFT, and specify details such as royalty splits. Some platforms also provide templates or pre-configured settings to speed up the process. Metadata includes information such as the name, description, and other details about the NFT. It’s important to ensure that each NFT is properly curated and presented to potential buyers.
 
 That’s it! You’ve **Successfully deployed an NFT drop** on Thirdweb. From here, you can promote your drop and start selling your NFTs to collectors around the world. With Thirdweb’s secure and user-friendly platform, you can be confident that your NFTs are in good hands.
 
@@ -76,7 +76,7 @@ In addition to deploying an NFT drop on Thirdweb, you can also create a claim ph
 
 #### Here’s a step-by-step guide to help you set up a claim phase:
 
-1. Firstly, visit the [NFT drop creation page](https://thirdweb.com/dashboard){:target="_blank" rel="noopener"} on Thirdweb and click on the “Advanced Settings” option. This will enable you to customize the settings for your NFT drop, including the claim phase.
+1. Firstly, visit the [NFT drop creation page](https://thirdweb.com/dashboard) on Thirdweb and click on the “Advanced Settings” option. This will enable you to customize the settings for your NFT drop, including the claim phase.
     
 2. In the advanced settings, you’ll find the option to enable the claim phase. Once you’ve enabled the claim phase, you’ll need to set the duration for the phase.
     
@@ -93,7 +93,7 @@ By setting up a claim phase for your NFT drop on Thirdweb, you can ensure that c
 
 #### How to Copy NFT Drop Contract Addresses on Thirdweb
 
-1. Log in to your Thirdweb account and navigate to the [dashboard](https://thirdweb.com/dashboard){:target="_blank" rel="noopener"}.
+1. Log in to your Thirdweb account and navigate to the [dashboard](https://thirdweb.com/dashboard).
     
 2. Click on the NFT drop whose contract address you want to copy to open its details.
     
@@ -106,7 +106,7 @@ By setting up a claim phase for your NFT drop on Thirdweb, you can ensure that c
 
 Quick Guide to Launching a ReactJS Website from GitHub
 
-1. First, you’ll need to have Git installed on your computer. If you don’t have it already, you can [download it from the Git website](https://www.atlassian.com/git/tutorials/install-git){:target="_blank" rel="noopener"}.
+1. First, you’ll need to have Git installed on your computer. If you don’t have it already, you can [download it from the Git website](https://www.atlassian.com/git/tutorials/install-git).
     
 2. Open your terminal/command prompt and navigate to the directory where you want to clone the repository.
     
@@ -248,16 +248,16 @@ By doing so, you can help promote the use of blockchain technology and inspire o
 
 ### Important Links
 
-1. [https://nodejs.org/en/](https://nodejs.org/en/){:target="_blank" rel="noopener"}
+1. [https://nodejs.org/en/](https://nodejs.org/en/)
     
-2. [https://thirdweb.com/](https://thirdweb.com/){:target="_blank" rel="noopener"}
+2. [https://thirdweb.com/](https://thirdweb.com/)
     
-3. [https://vercel.com/](https://vercel.com/){:target="_blank" rel="noopener"}
+3. [https://vercel.com/](https://vercel.com/)
     
-4. [https://vercel.com/docs/cli](https://vercel.com/docs/cli){:target="_blank" rel="noopener"}
+4. [https://vercel.com/docs/cli](https://vercel.com/docs/cli)
     
-5. [https://nft-mint-page-nu.vercel.app/](https://nft-mint-page-nu.vercel.app/){:target="_blank" rel="noopener"}
+5. [https://nft-mint-page-nu.vercel.app/](https://nft-mint-page-nu.vercel.app/)
     
-6. [https://github.com/ritik-prog/nft-mint-website/](https://github.com/ritik-prog/nft-mint-website/){:target="_blank" rel="noopener"}
+6. [https://github.com/ritik-prog/nft-mint-website/](https://github.com/ritik-prog/nft-mint-website/)
     
-7. [Detailed steps for deploying NFT contract by third-web](https://portal.thirdweb.com/templates/nft-drop/creating-the-nft-drop-contract#:~:text=Creating%20an%20NFT%20Drop%20Contract%E2%80%8B,is%20best%20suited%20for%20this.){:target="_blank" rel="noopener"}
+7. [Detailed steps for deploying NFT contract by third-web](https://portal.thirdweb.com/templates/nft-drop/creating-the-nft-drop-contract#:~:text=Creating%20an%20NFT%20Drop%20Contract%E2%80%8B,is%20best%20suited%20for%20this.)
